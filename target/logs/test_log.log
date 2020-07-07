@@ -1,0 +1,17 @@
+2020-07-05 05:35:15,727: test_suite.conftest: ERROR: <traceback object at 0x0000025268507100>
+Traceback (most recent call last):
+  File "C:\Users\Rajkamal\PycharmProjects\allure_pytest_sel_fw_copy\test_suite\test_login.py", line 30, in test_login_fail
+    assert actual_msg == expected_msg
+AssertionError: assert 'Invalid credentials' == 'valid credentials'
+  - valid credentials
+  + Invalid credentials
+  ? ++
+2020-07-05 05:35:16,584: test_suite.conftest: INFO: Loading URL
+2020-07-05 05:35:17,214: test_suite.conftest: DEBUG: {'username': 'Admin', 'password': 'admin123'}
+2020-07-05 05:35:18,916: test_suite.conftest: INFO: Login_Page - signin
+2020-07-05 05:35:21,721: test_suite.conftest: INFO: Loading URL
+2020-07-05 05:35:22,443: test_suite.conftest: DEBUG: {'username': 'Admin', 'password': 'admin123'}
+2020-07-05 05:35:24,160: test_suite.conftest: INFO: Login_Page - signin
+2020-07-05 05:35:26,041: test_suite.conftest: INFO: Loading URL
+2020-07-05 05:35:26,692: test_suite.conftest: DEBUG: {'username': 'Admin', 'password': 'admin123'}
+2020-07-05 05:35:28,314: test_suite.conftest: INFO: Login_Page - signin
