@@ -20,7 +20,7 @@ class TestLogin:
     @pytest.mark.parametrize('username,password,expected_msg', data['login_pass_data'])
     def test_login_pass(self, username, password, expected_msg):
         home_page = self.login_page.login_pass(username, password)
-        assert home_page.get_wel_msg() == expected_msg
+        assert "Welcome" in home_page.get_wel_msg() 
 
     @pytest.mark.parametrize('username,password,expected_msg', data['login_fail_data'])
     def test_login_fail(self, username, password, expected_msg):
